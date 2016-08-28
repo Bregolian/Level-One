@@ -28,6 +28,7 @@ System.out.println("casting spell: " + spell);
 		Wizard Harry=new Wizard();
 		Wizard Hermione=new Wizard();
 		// 2. become invisible
+		
 		Harry.makeInvisible(true);
 		Harry.spyOnSnape();
 		Harry.makeInvisible(false);
