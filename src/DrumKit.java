@@ -1,18 +1,18 @@
 // Copyright Wintriss Technical Schools 2013
 
-import java.applet.AudioClip;
+//import java.applet.AudioClip;
 import java.awt.GridLayout;
 import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+//import java.awt.event.MouseEvent;
 import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
-import javax.swing.JApplet;
+//import javax.swing.JApplet;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 public class DrumKit extends MouseAdapter {
@@ -50,13 +50,13 @@ public class DrumKit extends MouseAdapter {
 drumLabelWithImage.addMouseListener(this);
     }
 
-    public void mouseClicked(MouseEvent e) {
+ //   public void mouseClicked(MouseEvent e) {
    	 // 14. When the mouse is clicked, print "mouse clicked"
 
-   	 JLabel drumClicked = (JLabel) e.getSource();
-if (drumLabelWithImage==drumClicked) {
-	playSound("snared.wav");
-}
+   //	 JLabel drumClicked = (JLabel) e.getSource();
+//if (drumLabelWithImage==drumClicked) {
+//	playSound("snared.wav");
+//}
    	 
    	 // 15. Download a drum sound and drop it into your "default package". You can find it on freesound.org. To download it, log in as leagueofamazing/code4life.
    	 // 16. If they clicked on the drumImage...
@@ -64,7 +64,7 @@ if (drumLabelWithImage==drumClicked) {
    		 // 17. ...use the playSound method to play a drum sound.
 
    	 // 18. Add more images to make a drumkit. Remember to add a mouse listener to each one.
-    }
+  //  }
 
     private JLabel createLabelImage(String fileName)
 			throws MalformedURLException
@@ -81,11 +81,11 @@ if (drumLabelWithImage==drumClicked) {
 	}
 
 
-    private void playSound(String fileName) {
-   	 AudioClip sound = JApplet.newAudioClip(getClass().getResource(fileName));
-   	 sound.play();
+  //  private void playSound(String fileName) {
+   //	 AudioClip sound = JApplet.newAudioClip(getClass().getResource(fileName));
+   	 //sound.play();
     }
 
-}
+//}
 
 
