@@ -26,7 +26,6 @@ System.out.println("casting spell: " + spell);
 	public static void main(String[] args) {
 		// 1. make harry potter
 		Wizard Harry=new Wizard();
-		Wizard Hermione=new Wizard();
 		// 2. become invisible
 		
 		Harry.makeInvisible(true);

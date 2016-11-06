@@ -1,16 +1,11 @@
-import java.awt.Component;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.net.URL;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Random;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
+
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import java.io.IOException;
 public class SimonSaysRecipe extends KeyAdapter {
  
  // Complete steps 1 - 7 before you test
@@ -18,7 +13,6 @@ public class SimonSaysRecipe extends KeyAdapter {
  JFrame frank;
  	HashMap<Integer,String> keyMap = new HashMap<Integer, String>();
  	private int keyIndex;
- 	private int tries = 0;
  	private int simonSays = 0;
  	Date timeAtStart;
  	private  void makeAlbum() {
@@ -35,7 +29,6 @@ showImage();
 	public void keyPressed(KeyEvent e) {
     	int keyCode = e.getKeyCode();
     	// 16. make a points variable to track the score. tell the user their score at the end.
-    	int points;
     	System.out.println("boom");
     	//17. if the keyCode matches the imageIndex and "Simon says..."  increase their score
     	if (simonSays==0 && keyCode==keyIndex) {

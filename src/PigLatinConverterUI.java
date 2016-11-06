@@ -14,7 +14,7 @@ public class PigLatinConverterUI implements ActionListener {
 	JTextField jTextField2=new JTextField();
 	JButton jButton=new JButton();
 public static void main(String[] args) {
-	PigLatinConverterUI pigLatinConverterUI=new PigLatinConverterUI();
+	new PigLatinConverterUI();
 	
 }
 

@@ -12,17 +12,16 @@ public class Minion {
 	}
 
 	public String getName() {
-		this.name=name;
+		
 		return name;
 	}
 
 	public int getEyes() {
-		this.eyes=eyes;
+		
 		return eyes;
 	}
 
 	public String getColor() {
-		this.color=color;
 		return color;
 	}
 

@@ -1,7 +1,6 @@
 
 // Copyright Wintriss Technical Schools 2013
 import java.awt.Component;
-import java.awt.Frame;
 import java.net.MalformedURLException;
 import java.net.URL;
 

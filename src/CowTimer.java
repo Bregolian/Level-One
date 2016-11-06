@@ -1,5 +1,5 @@
 import java.applet.AudioClip;
-import java.io.IOException;
+
 import javax.swing.JApplet;
 import javax.swing.JOptionPane;
 
@@ -60,13 +60,7 @@ public class CowTimer {
 		sound.play();
 	}
 
-private void speak(String stuffToSay) {
-		try {
-			Runtime.getRuntime().exec("say " + stuffToSay).waitFor();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+
 
 
 }
